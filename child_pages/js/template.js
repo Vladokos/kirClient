@@ -2,7 +2,7 @@ const container = document.getElementsByClassName("main_container")[0];
 
 const title = localStorage.getItem("service");
 
-const result = await axios.get(`http://127.0.0.1:4000/service/${title}`);
+const result = await axios.get(`https://kirhost.onrender.com/service/${title}`);
 
 const { Title, Description } = result.data[0];
 
