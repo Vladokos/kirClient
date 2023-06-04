@@ -272,6 +272,11 @@ body {
   text-align: center;
 }
 
+.allService{
+  display: block;
+  text-align: center;
+}
+
 .offers_list {
   padding-top: 40px;
   padding-bottom: 70px;
